@@ -17,16 +17,18 @@
 </head>
 <body class="bg-gray-950 text-white min-h-screen flex items-center justify-center">
 
-  <div class="w-full max-w-4xl p-6">
+  <div class="w-full max-w-4xl px-4 md:px-6 py-6">
 
     <!-- Header -->
     <div class="text-center mb-10">
-      <h1 class="text-4xl font-bold tracking-tight">GitHub Profile Finder</h1>
+      <h1 class="text-3xl md:text-5xl font-bold tracking-tight bg-gradient-to-r from-indigo-100 to-purple-700 text-transparent bg-clip-text">
+  GitHub Profile Finder
+</h1>
       <p class="text-gray-400 mt-2">Search any GitHub user and view their profile details</p>
     </div>
 
     <!-- Search Bar -->
-    <div class="flex gap-4 mb-10">
+    <div class="flex flex-col md:flex-row gap-4 mb-10">
       <input 
         type="text" 
         placeholder="Enter GitHub username..." 
@@ -37,11 +39,10 @@
       </button>
     </div>
 
-    <!-- Profile Card (Dummy Data) -->
-    <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 shadow-lg">
+    <!-- Profile Card -->
+    <div class="bg-gray-900 border border-gray-800 rounded-2xl p-4 md:p-6 shadow-lg bg-gradient-to-br from-gray-900 via-gray-900 to-indigo-900/30">
       <div class="card flex flex-col md:flex-row items-center md:items-start gap-6">
         
-        <!-- Avatar -->
        
       </div>
     </div>
